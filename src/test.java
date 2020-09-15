@@ -1,20 +1,20 @@
 
 public class test {
     public static void main(String[] args){
-       featureA();
-       featureB();
-       featureC();
+        System.out.println(featureA());
+        System.out.println(featureB());
+        System.out.println(featureC());
     }
     //Base feature of program
-    public static void featureA(){
-        System.out.println("Feature A");
+    public static String featureA(){
+        return "Feature A";
     }
     //feature B
-    public static void featureB(){
-        System.out.println("Feature B");
+    public static String featureB(){
+        return "Feature B";
     }
     //feature C
-    public static void featureC(){
-        System.out.println("Feature B");
+    public static String featureC(){
+        return  "Feature C";
     }
 }
