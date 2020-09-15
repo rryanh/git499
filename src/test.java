@@ -1,9 +1,9 @@
-import java.awt.*;
 
 public class test {
     public static void main(String[] args){
        featureA();
        featureB();
+       featureC();
     }
     //Base feature of program
     public static void featureA(){
